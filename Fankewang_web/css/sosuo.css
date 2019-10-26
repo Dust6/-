@@ -1,0 +1,89 @@
+/*搜索框*/
+.sosuo-Div{
+	width: 1200px;
+	height: 150px;
+	/* border: 1px solid #FF8080; */
+	margin: 0px auto;
+}
+.sosuo-div{
+	float: right;
+	width: 526px;
+	height: 100px;
+	/* background: #00BBEE; */
+	margin-top: 20px;
+}
+.sosuo-txt{width: 320px; height: 26px; font-size: 12px;}
+.souo-btn{
+	width: 60px;
+	height: 30px;
+	display: inline-block;
+	text-align: center;
+	line-height: 30px;
+	background:#b81b22;
+	color:#fff;
+	font-size: 13px;
+	margin-left: -5px;
+}
+.goWuche{
+	display: inline-block;
+	width: 135px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	background: #b81b22;
+}
+.sosuo-ul li{
+	font-size: 13px;
+	margin: 0px 10px;
+	float: left;
+	color: #727171;
+}
+.sosuo-ul li>a{color: #727171;}
+/*菜单栏*/
+.menubar-div{
+	width: 1200px;
+	height: 50px;
+	/* border: 1px solid #FFB3B3; */
+	margin-top: 100px;
+}
+/*凡客图标*/
+.menubar-log{
+	float: left;
+}
+.shangbiao{
+	margin-top: -35px;
+	margin-left: 46px;
+}
+/*菜单*/
+ .menubar-ul{
+	 width: 1000px;
+	 height: 30px;
+	 /* border: 1px solid #00EE00; */
+	 float: right;
+ }
+.menubar-ul>li{
+	float: left;
+	width: 98px;
+	height: 18px;
+	border-right: 1px solid #727171;
+	text-align: center;
+}
+.menubar-ul a{color: #727171;}
+.menubar-ul a:hover{color: #b81b22;} 
+/*二级菜单*/
+.menubar-chaid{
+	display: none;
+	/* position: absolute; */
+	position: relative;
+	margin: 5px;
+	border-top: 2px solid #b81b22;
+	background: white;
+	z-index: 100;
+}
+.menubar-chaid>li{
+	margin: 10px 0px;
+};
+.weiyi{
+	margin-top: 50px;
+}

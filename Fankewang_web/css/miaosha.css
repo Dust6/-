@@ -1,0 +1,49 @@
+/* 秒杀 */
+.miaoSha{
+	width: 1200px;
+	height:922px;
+	/* border: 1px solid #A4E9C1; */
+	margin: auto;
+}
+.xianliangms{
+	width: 1200px;
+	margin-top:20px;
+	position: relative;
+}
+.time{
+	width: 180px;
+	height: 30px;
+	/* border: 1px solid #C38DD4; */
+	position: absolute;
+	right: 0px;
+	top: 18px;
+}
+.time>li{
+	float: left;
+	margin:4px 18px;
+}
+/*T桖*/
+.ms-txue{width: 1200px;}
+.Txue>a{
+	float: left;
+	width: 240px;
+	color: #000;
+}
+
+/*设置原价删除*/
+.yuanJia{
+	text-decoration:line-through;
+	color: #ccc;
+}
+.jiage-div{
+	width: 240px;
+	/* border: 1px solid #0000FF; */
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.jiage-yuanj{color: red;}
+.jiage-xianj{float: right; font-size: 14px;}
+.jiage-xianj>big{color: red;}
+.ms-yhjuan{width: 1200px; height: 245px; margin: 20px 0px;}
+.ms-yhjuan li{float: left;}
+/* .ms-zhijiangbao{margin-top: 30px;} */

@@ -1,0 +1,9 @@
+/* 商品 */
+.embran{
+	width: 1200px;
+	height: 8290px;
+	margin: 0px auto;
+	/* border: 1px solid #00BBEE; */
+}
+.embar-ul>a{float: left;}
+.embran-biaot{margin:10px 0px;}

@@ -1,0 +1,164 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+/*头部*/
+.log-div{
+	width: 1200px;
+	height: 60px;
+	margin: 0px auto;
+	border-bottom:1px solid #000 ;
+}
+.log-div>.bangzhu{float: right; margin-top: 40px; color: #000;}
+/*中间*/
+.center-div{
+	width: 1000px;
+	height: 580px;
+	/* border: 1px solid #A4E9C1; */
+	margin: auto;
+}
+/*图片*/
+.center-child1{float: left;margin: 120px 0px;}
+/*表格*/
+.center-child2{
+	width: 400px;
+	float: right;
+	margin-top: 10%;
+	/* border: 1px solid red; */
+}
+.child-tab{
+	border: 1px solid #d1d1d1;
+	height: 400px;
+}
+
+.tab-top{
+	width: 400px; 
+	height: 30px; 
+	/* border: 1px solid green; */
+	 color: #979797;
+	  margin-bottom: 10px;
+	position: relative;
+	}
+.tab-top2{position: absolute;right: 0px;}
+.tab-top2>a{color: #b42025;}
+/*表格按钮*/
+#tab-btn{
+	width: 400px;
+	height: 50px;
+	/* border: 1px solid #000; */
+	position: relative;
+	}
+#tab-btn>.btn{
+	position: absolute;
+	 width: 200px;
+	height: 30px; 
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid #9797a3;
+	cursor: pointer;
+	}
+/*普通按钮样式*/
+#tab-btn div:nth-child(1){
+		background: #b42025;
+		color: white;
+	}
+#kuaisu{
+	background:#f5f5f5;
+	color:black;
+	top: 0px; right: 0px;
+	}
+
+/*普通登录*/
+/*输入框*/
+.tab-puto{
+	width: 400px;
+	/* position: relative; */
+}
+.user,.password{
+	width: 360px;
+	height: 40px;
+	margin: 10px 20px;
+	/* position: absolute; */
+}
+.tab-puto>p{font-size: 12px;margin-left: 20px;}
+.tab-puto>a{
+	color: #b42025;
+	float:right;
+	margin-right: 50px;
+}
+/*快速登录*/
+.tab-kuaisu{
+	display: none;
+	width: 400px;
+	/* position: relative; */
+}
+/*验证码*/
+.yanzhengma{
+	width: 360px;
+	height: 40px;
+	/* border: 1px solid #000; */
+	margin: 10px auto;
+}
+.yanzheng-text{
+	width: 230px;
+	height: 40px;
+	float: left;
+}
+.yanzheng-btn{
+	width: 120px;
+	height: 40px;
+	border: 1px solid #cbcbcb;
+	line-height: 40px;
+	text-align: center;
+	font-size: 13px;
+	float: right;
+	background: #f5f5f5;
+}
+/*图片验证*/
+.yanzheng-img{ 
+	width: 400px; 
+	height: 50px;
+	/* border: 1px solid #000; */
+	padding-left: 20px;
+  };
+.yanz-div{ 
+	width: 250px; 
+	height: 50px; 
+	margin-left: 30px;
+	border: 1px solid red;
+}
+.yanz-text{width: 100px; height: 50px; float: left;}
+.yanz-img{width:100px; height: 54px; }
+.yanz-div>a{ margin-left: 10px; margin-top: 5px; font-size: 10px;}
+/*手机号*/
+.photo-text{width: 360px; height: 40px; margin: 10px 20px;}
+
+/*登录按钮*/
+.denglu-btn{width: 360px; height: 50px; margin:30px auto 30px; background: #b42025; color: white; text-align: center; line-height: 50px;}
+/*三方登录图标*/
+.sanfang-btn{
+	border-top: 1px dashed #000;
+	text-align: center;
+	color: #9797a3;
+}
+/*底部*/
+.bottom-div{
+	width: 1200px;
+	/* height: 200px; */
+	border-top: 1px solid #000;
+	margin: 0px auto;
+	position: relative;
+}
+.bottom-child{
+	position: absolute;
+	width: 1200px;
+	text-align: center;
+		/* border: 1px solid #000; */
+		color: #999999;
+		margin: 10px auto;
+		font-size: 10px;
+		}
+.bottom-child>ul{margin:10px auto;/* border: 1px solid #0092DC; */  width: 600px; height: 50px;}
+.bottom-child>ul>li{float: left;}

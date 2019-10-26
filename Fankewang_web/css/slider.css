@@ -1,0 +1,44 @@
+/* 轮播图 */
+.slideshow-div{
+	width: 1200px;
+	height: 534px;
+	/* border: 1px solid steelblue; */
+	margin: 20px auto;
+	overflow:hidden;
+	position: relative;
+}
+.slideshow-img{width: 7200px;}
+.slideshow-img>li{
+	float: left;
+}
+/*按钮*/
+.arrow-left,.arrow-right{
+	width: 20px;
+	height: 40px;
+	border: 1px solid #A6A6A6;
+	position: absolute;
+	top: 256.8px;
+	text-align: center;
+	line-height: 40px;
+	background: #A6A6A6;
+	color: white;
+}
+.arrow-left{left: 0px;}
+.arrow-right{right: 0px;}
+/*小圆圈*/
+.slide-yuans{
+	width: 200px;
+	height: 20px;
+	/* border: 1px solid #C5EBF0; */
+	position: absolute;
+	top: 484px;
+	left: 45%;
+}
+.slide-yuans li{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: #dddddd;
+	float: left;
+	margin: 0px 8px;
+}
